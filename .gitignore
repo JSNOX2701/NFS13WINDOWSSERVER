@@ -1,0 +1,16 @@
+# Python / PyInstaller
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.old.exe
+*.zip
+
+# Configuración local y perfiles de sesión
+launcher.ini
+speedlist_mode.json
+server/speedlist_mode.json
+server/players.json
+server/players.json.tmp
+*.log
+*.bak

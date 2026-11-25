@@ -1,0 +1,50 @@
+================================================================================
+   NEED FOR SPEED: MOST WANTED (2012) - MODO LAN / RADMIN VPN
+================================================================================
+
+Este paquete te permite jugar en LAN local o por Radmin VPN de forma 100% nativa
+en Windows, sin emuladores, sin máquinas virtuales y con latencia mínima.
+
+--------------------------------------------------------------------------------
+1. REQUISITOS PREVIOS
+--------------------------------------------------------------------------------
+- Ambos jugadores deben estar conectados en la misma red de Radmin VPN o misma LAN.
+- Tener el juego parchado (NFS13.online.exe).
+  * Si no lo tienes parchado, abre NFSMW_Launcher.exe y haz clic en "Parchear NFS13.exe".
+
+--------------------------------------------------------------------------------
+2. PASOS PARA EL ANFITRIÓN (HOST - El que crea la partida)
+--------------------------------------------------------------------------------
+1. Abre 'NFSMW_Launcher.exe' (se abrirá pidiendo permisos de Administrador).
+2. En 'MODO MULTIJUGADOR / RED', selecciona: [ CREAR SESIÓN (HOST) ].
+3. En la lista, asegúrate de que esté seleccionada tu IP de Radmin (ej: 26.x.x.x).
+4. Dale clic al botón "Copiar IP" y pásale esa IP a tu amigo.
+5. Elige tu nombre de piloto y busca tu ejecutable (NFS13.online.exe).
+6. Clic en [ HOST AND PLAY ].
+   * El launcher abrirá una consola con el servidor en segundo plano.
+   * El juego se abrirá automáticamente conectado a tu propio servidor.
+
+--------------------------------------------------------------------------------
+3. PASOS PARA EL AMIGO (JOIN - El que se une a la partida)
+--------------------------------------------------------------------------------
+1. Abre 'NFSMW_Launcher.exe'.
+2. En 'MODO MULTIJUGADOR / RED', selecciona: [ UNIRSE A SESIÓN (JOIN) ].
+3. En 'IP del Host (Tu amigo con el servidor)', PEGA LA IP de tu amigo (ej: 26.x.x.x).
+4. Elige tu nombre de piloto y busca tu ejecutable (NFS13.online.exe).
+5. Clic en [ PLAY ].
+6. El juego se abrirá y se conectará directamente al servidor de tu amigo.
+
+--------------------------------------------------------------------------------
+4. DENTRO DEL JUEGO
+--------------------------------------------------------------------------------
+1. En el juego, presiona la tecla de EasyDrive (por defecto NumPad o flechas).
+2. Ve a 'Conectar a Most Wanted' o 'Partida con amigos'.
+3. ¡Verás a tu amigo en el mapa y podrán iniciar carreras y persecuciones juntos!
+
+--------------------------------------------------------------------------------
+NOTAS TÉCNICAS:
+- No tienes que modificar manualmente el archivo hosts: el Launcher lo hace y lo
+  limpia automáticamente cuando cierras el juego.
+- Si alguna vez quieres limpiar el archivo hosts a mano, haz clic en el botón
+  'Limpiar Hosts' en la parte inferior del Launcher o ejecuta tools\limpiar_hosts.bat.
+================================================================================
