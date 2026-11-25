@@ -64,8 +64,8 @@ If you download a release ZIP or run `NFSMW_Launcher.exe`:
 4. Enter your **Online Name**, verify `NFS13.online.exe` is selected, and click **`PLAY`**.
 
 ### 4. In-Game
-1. Open **EasyDrive** and go to **Multiplayer** / **Friends Game** / **Public Game**.
-2. Players appear on the map and can start Speedlists, races, and takedowns together.
+1. Open **EasyDrive** → **Multiplayer** → choose **Public Game** *(do **not** use **Friends Game** — creating/joining via **Public Game** is required for LAN/VPN matchmaking)*.
+2. Once connected to the lobby, wait through the **3-minute intermission (freeroam)** — the **Speedlist** events will start automatically right after the intermission ends.
 3. Closing the game (or clicking **`Clean Hosts`** in the Launcher) automatically removes the temporary `ea.com` entries from your Windows `hosts` file.
 
 ---
