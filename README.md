@@ -1,8 +1,14 @@
+![NFSMW 2012 — Windows LAN / VPN Private Server by JSNOX](assets/banner.jpg)
+
 # Need for Speed: Most Wanted (2012) — Native Windows LAN / VPN Private Server & Launcher
 
 A native **Blaze / Autolog** private server and all-in-one GUI launcher to play **Need for Speed: Most Wanted (2012)** (PC Retail) over **LAN** or **VPN** (Radmin VPN, ZeroTier, Hamachi, etc.) directly on Windows — no Docker, no WSL, and no virtual machines required.
 
-![NFSMW 2012 Private Server Launcher in action](assets/preview.jpg)
+## Extended 3-Player Network Gameplay Test
+
+[![Watch Extended 3-Player LAN/VPN Gameplay Test on YouTube](assets/gameplay_3players.jpg)](https://youtu.be/9HY10p4v4zQ)
+
+> **Click the image above or watch here:** **[Extended 3-Player Race Test on YouTube](https://youtu.be/9HY10p4v4zQ)** — live gameplay test with **3 players connected simultaneously on the same network**, completing full Speedlist races cleanly.
 
 ---
 
@@ -121,6 +127,12 @@ To build **`NFSMW_Launcher.exe`** yourself so it runs on any Windows PC without 
 
 ---
 
+## Launcher & Live Lobby Proof
+
+![NFSMW 2012 Private Server Launcher & Public Lobby](assets/preview.jpg)
+
+---
+
 ## Repository Layout
 
 ```text
@@ -133,7 +145,9 @@ NFSMW2012_LAN_Windows/
 ├── requirements.txt            # Python dependencies for source runs & builds
 ├── INSTRUCCIONES_LAN.txt       # Plain-text LAN/Radmin quick guide (Spanish)
 ├── assets/
-│   └── preview.jpg             # README preview screenshot
+│   ├── banner.jpg              # Project header banner (Koenigsegg Agera R & Hennessey Venom GT)
+│   ├── gameplay_3players.jpg   # 3-player session thumbnail for YouTube gameplay link
+│   └── preview.jpg             # Launcher & lobby proof screenshot
 ├── certs/                      # Self-signed *.ea.com certs for local SSLv3 termination
 ├── client/
 │   ├── hosts.txt               # List of redirected EA domains
